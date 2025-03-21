@@ -328,16 +328,25 @@ footer .container {
         max-width: 370px;
     }
 
+    .btn {
+        padding: 11px 25px;
+        font-weight: bold;
+        font-size: 16px;
+        color: white;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+
     .btn-grad {
         background: linear-gradient(#DE0D33, #AF0EE7);
         border: none;
+        border-color: transparent;
     }
 
     /* header */
     .header {
         padding-top: 34px;
     }
-
 
     .logo {
         font-size: 36px;
@@ -472,16 +481,7 @@ footer .container {
         align-items: center;
         gap: 10px;
     }
-
-    .btn {
-        padding: 11px 25px;
-        font-weight: bold;
-        font-size: 16px;
-        color: white;
-        border: 2px solid white;
-        border-radius: 5px;
-    }
-
+    
     .bnaner-img {
         gap: 10px;
     }
